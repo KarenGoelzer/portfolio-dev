@@ -1,0 +1,82 @@
+main{
+  width: 1366px;
+  background-color:var(--gray200-color);
+  margin: 0 auto;
+  display: grid;
+}
+
+#text-grid h2{
+  margin: auto;
+  /* border: 1px solid var(--gray400-color); */
+  text-align: center;
+  font-size: 24px;
+  width: 1040px;
+  margin-top: 72px;
+}
+
+#text-grid h1{
+  /* border: 1px solid var(--gray400-color); */
+  color: var(--gray600-color);
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+  font: var(--h1);
+  font-size: 29px;
+  font-weight: 700;
+  width: 1040px;
+  margin: auto;
+
+  padding-top: 8px;
+}
+
+#card{
+  background-color: var(--gray300-color);
+  width: 330px;
+  height: 280px;
+  border-radius: 12px;
+
+  overflow: hidden;
+  padding: 0;
+}
+
+#card:hover{
+  border: 1.5px solid var(--gray400-color);
+}
+
+#card img{
+  width: 306px;
+  height: 156px;
+  border-radius:8px;
+  display: block;
+  margin: 12px auto;
+  object-fit: cover;
+}
+
+#card h2{
+  font-family: 'Asap', sans-serif;
+  font: var(--h3);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 120%;
+  color: var(--gray600-color);
+  padding-top: 24px;
+  padding-left: 12px;
+}
+
+#card p{
+  font-family: 'Maven Pro', sans-serif;
+  font: var(--text-sm);
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--gray500-color);
+  padding-left: 12px;
+  padding-top: 8px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: auto;
+  padding-bottom: 80px;
+  margin-top: 56px;
+}

@@ -4,7 +4,7 @@ header{
   height: 750px;
 
   background-size: cover;
-  margin: 120px auto;
+  margin: 120px auto 0;
 
   display: block;
   flex-direction: row;
@@ -23,17 +23,16 @@ header{
 
 
 
-#info{
+#intro{
   text-align: center;
   
 }
 
 header h2{
-  font-family:'inconsolata', sans-serif;
   color: var(--gray500-color);
-  font: var(--subtitle);
   font-weight: 400;
-  font-size: 24px;
+  font-family:'inconsolata', sans-serif;
+  
 }
 
 header h2 span{
