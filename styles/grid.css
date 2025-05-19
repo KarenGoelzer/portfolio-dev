@@ -39,6 +39,7 @@ main{
 }
 
 #card:hover{
+  /* background-color: var(--gray400-color); */
   border: 1.5px solid var(--gray400-color);
 }
 

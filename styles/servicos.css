@@ -1,0 +1,45 @@
+#servicos{
+  display: grid;
+  background-color: var(--gray100-color);
+}
+
+#card2{
+  width: 280px;
+  height: 155px;
+  background-color: var(--gray100-color);
+  /* border: 1px solid var(--gray400-color); */
+
+}
+
+#grid2{
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--gray100-color);
+  display: grid;
+  gap: 24px;
+  margin: 56px auto 120px;
+}
+
+#card2 img{
+  width: 48px;
+  height: 48px;
+  size: cover;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#card2 h2{
+  font-family: 'asap', sans-serif;
+  font: var(--h3);
+  color:var(--gray600-color);
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#card2 p{
+  font-family: 'Maven Pro', sans-serif;
+  font: var(--text-sm);
+  color: var(--gray400-color);
+  margin-top: 8px;
+  margin-left: 20px;
+}
